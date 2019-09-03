@@ -1,0 +1,119 @@
+ol {counter-reset: repas;} /* on initialise et nomme un compteur */
+.monlist {
+	list-style-type: none;
+	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	margin-bottom: 10px;
+}
+.monlist:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 0 20px 6px;
+	margin-right: 8px;
+	vertical-align: top;
+	background: #343a40 ;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;
+}
+
+.monlist2 {
+	list-style-type: none;
+	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	margin-bottom: 10px;
+}
+.monlist2:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 0 20px 6px;
+	margin-right: 8px;
+	vertical-align: top;
+	background: #69b578;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;
+}
+
+/*  monlist2 */
+.monlist2 {
+	list-style-type: none;
+	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	margin-bottom: 10px;
+}
+.monlist2:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 0 20px 6px;
+	margin-right: 8px;
+	vertical-align: top;
+	background: #69b578;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;
+}
+
+
+/*  monlist3 */
+.monlist3 {
+	list-style-type: none;
+	counter-increment: repas; /* on incrémente le compteur à chaque nouveau li */
+	margin-bottom: 10px;
+}
+.monlist3:before {
+	content: counter(repas); /* on affiche le compteur */
+	padding: 0 20px 6px;
+	margin-right: 8px;
+	vertical-align: top;
+	background: #008acb;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;
+}
+
+
+
+.button {
+  color: #FFF;
+  background-color: #343a40;    /* Blue */
+  font-weight: bold;
+  font-size : 30px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #343a40;   /* Dark gray */
+  border-radius: 5px;
+
+  width: 600px;
+  margin: 10px auto;
+}
+
+.button2 {
+  color: #FFF;
+  background-color: #69b578;    /* Blue */
+  font-weight: bold;
+  font-size : 30px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #69b578;   /* Dark gray */
+  border-radius: 5px;
+
+  width: 600px;
+  margin: 10px auto;
+}
+
+.button3 {
+  color: #FFF;
+  background-color: #008acb;    /* Blue */
+  font-weight: bold;
+  font-size : 30px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #008acb;   /* Dark gray */
+  border-radius: 5px;
+
+  width: 600px;
+  margin: 10px auto;
+}

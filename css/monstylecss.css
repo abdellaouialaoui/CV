@@ -86,7 +86,7 @@ ol {counter-reset: repas;} /* on initialise et nomme un compteur */
   border: 2px solid #343a40;   /* Dark gray */
   border-radius: 5px;
 
-  width: 600px;
+  width: 300px;
   margin: 10px auto;
 }
 
@@ -100,7 +100,7 @@ ol {counter-reset: repas;} /* on initialise et nomme un compteur */
   border: 2px solid #69b578;   /* Dark gray */
   border-radius: 5px;
 
-  width: 600px;
+  width: 300px;
   margin: 10px auto;
 }
 
@@ -114,6 +114,6 @@ ol {counter-reset: repas;} /* on initialise et nomme un compteur */
   border: 2px solid #008acb;   /* Dark gray */
   border-radius: 5px;
 
-  width: 600px;
+  width: 300px;
   margin: 10px auto;
 }

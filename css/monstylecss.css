@@ -117,3 +117,18 @@ ol {counter-reset: repas;} /* on initialise et nomme un compteur */
   width: 300px;
   margin: 10px auto;
 }
+
+
+.button4 {
+  color: #FFF;
+  background-color: #25ddaa;    /* Blue */
+  font-weight: bold;
+  font-size : 30px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #25ddaa;   /* Dark gray */
+  border-radius: 5px;
+
+  width: 300px;
+  margin: 10px auto;
+}

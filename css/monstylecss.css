@@ -132,3 +132,11 @@ ol {counter-reset: repas;} /* on initialise et nomme un compteur */
   width: 300px;
   margin: 10px auto;
 }
+
+
+/* profile image */
+@media (max-width: 991px) {
+.profile_img img{
+width: 50px;
+}
+}

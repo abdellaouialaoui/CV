@@ -140,3 +140,9 @@ ol {counter-reset: repas;} /* on initialise et nomme un compteur */
 width: 50px;
 }
 }
+
+.myname
+{
+   font-size: 15px;
+	font-weight: bold;
+}
